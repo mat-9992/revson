@@ -1,0 +1,15 @@
+{
+  "name": "revson",
+  "private": true,
+  "workspaces": ["apps/*", "packages/*"],
+  "scripts": {
+    "dev:marketing": "npm --workspace @revson/marketing run dev",
+    "dev:super-admin": "npm --workspace @revson/super-admin run dev",
+    "dev:owner": "npm --workspace @revson/owner run dev",
+    "dev:employee": "npm --workspace @revson/employee run dev",
+    "build:marketing": "npm --workspace @revson/marketing run build",
+    "build:super-admin": "npm --workspace @revson/super-admin run build",
+    "build:owner": "npm --workspace @revson/owner run build",
+    "build:employee": "npm --workspace @revson/employee run build"
+  }
+}
